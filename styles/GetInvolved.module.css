@@ -1,0 +1,131 @@
+.slideGetInvolvedFirst {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/get-involved-first.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.slideGetInvolvedFirst h2 {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.slideGetInvolvedFirst p {
+    margin: 0px;
+}
+
+.slideGetInvolvedSecond {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/get-involved-second.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.slideGetInvolvedThird {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/prayer-request-pic.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.slideGetInvolvedFourth {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/get-involved-fourth.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.containerInnerOverlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.slideGetInvolvedSecondSec {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/get-involved-secondsec.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.slideGetInvolvedSecondFirst {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/youtube-pic-gi.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.bottomLeftContainerWhole {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottomLeftContainerWhole h2 {
+    font-size: 28px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.bottomLeftContainerWhole p {
+    color: #C7C7C7;
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+}
+
+.bottomLeftContainerWhole p svg {
+    margin-left: 8px;
+}

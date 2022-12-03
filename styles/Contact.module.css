@@ -1,0 +1,76 @@
+.contactSectionFirst {
+    width: 100%;
+    height: 780px;
+    background-image: url("../assets/images/contact-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+
+.sectionFirstInner {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.sectionFirstInner h1 {
+    margin: 0px;
+}
+
+.contentContact {
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.contentContact h3 {
+    font-weight: 400 !important;
+}
+
+.innerRowContact {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.innerRowContact input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #d3d3d3;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    width: 100%;
+}
+
+.rowContact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowContact .innerRowContact {
+    width: 48%;
+}
+
+.bottomContainerContact {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bottomContainerContact p {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.bottomContainerContact p svg {
+    margin-left: 8px;
+}

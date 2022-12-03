@@ -1,0 +1,113 @@
+.containerPreqMain {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 75px;
+    /* padding-top: 50px; */
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.imgContPreqMain {
+    width: 40%;
+    background-image: url("../assets/images/prayer-request-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.contentContPreqMain {
+    width: 55%;
+}
+
+.contentContPreqMain h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.prmparafirst {
+    line-height: 2;
+    font-size: 28px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.contentPreq {
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.contentPreq h3 {
+    font-weight: 400 !important;
+}
+
+.innerRowPreq {
+    margin-top: 35px;
+    width: 100%;
+}
+
+.innerRowPreq input, .innerRowPreq textarea {
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #d3d3d3;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.innerRowPreq textarea {
+    min-height: 140px;
+}
+
+.rowPreq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowPreq .innerRowPreq {
+    width: 48%;
+}
+
+.bottomContainerPreq {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bottomContainerPreq p {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.bottomContainerPreq p svg {
+    margin-left: 8px;
+}
+
+.zipCodeMainTop { 
+    border-top: 1px solid #d3d3d3;
+    margin-top: 30px;
+}
+
+.zipCodeMainTop .innerRowPreq {
+    margin-top: 25px; 
+}
+
+.zipCodeMainTop label {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.zipCodeMainTop input {
+    margin-top: 10px;
+}

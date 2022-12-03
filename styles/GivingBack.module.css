@@ -1,0 +1,93 @@
+.firstContainerGivingBack {
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/heart-giving-back.png");
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.firstContainerInner {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.firstContainerInner p svg {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.secondContainerGivingBack {
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/globe-giving-back.png");
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+
+.thirdContainerGivingBack {
+    width: 100%;
+    background-color: #2D2D2D;
+    padding: 30px;
+}
+
+.thirdContainerGivingBack h2 {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.containerContentThird {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.innerCct {
+    width: 33.33%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../assets/images/community-prfirst.jpg");
+}
+
+.innerCct:nth-child(2) {
+    background-image: url("../assets/images/community-prsecond.jpg");
+}
+
+.innerCct:nth-child(3) {
+    background-color: pink;
+}
+
+.thirdContainerGivingBack p {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.thirdContainerGivingBack p svg {
+    vertical-align: middle;
+    margin-left: 8px;
+}

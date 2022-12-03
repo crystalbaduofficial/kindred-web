@@ -1,0 +1,42 @@
+.navbarMain {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+}
+
+.containerNavbar {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerNavbar img {
+    max-height: 75px;
+    max-width: 175px;
+}
+
+.containerNavbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.containerNavbar ul li {
+    font-weight: 800;
+    color: #4D4C4C;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.containerNavbar ul li svg {
+    color: #4D4C4C;
+    font-size: 28px;
+}
+
+.containerNavbar ul li:last-child {
+    margin-right: 0px;
+}

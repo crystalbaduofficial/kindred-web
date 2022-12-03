@@ -1,0 +1,23 @@
+.footerMain {
+    width: 100%;
+    padding: 25px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentFooter {
+    color: white;
+}
+
+.contentFooter h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+.contentFooter p {
+    margin: 0px;
+    margin-top: 15px;
+    text-align: center;
+}

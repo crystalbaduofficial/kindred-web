@@ -1,0 +1,152 @@
+.bannerAboutImage {
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/about-banner.jpg");
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.firstContainerInner {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.firstContainerInner p svg {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.slideAboutFirst {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/bg-slider-aboutfirst.jpeg");
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideAboutFirst h2 {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    letter-spacing: 0.6px;
+}
+
+.containerAboutfirst {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.containerAboutfirstInner {
+    width: 23%;
+    height: 340px;
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerAboutfirstInner p:nth-child(3) {
+    font-size: 22px;
+    color: gray;
+    position: relative;
+}
+
+.containerAboutfirstInner p:nth-child(3)::before {
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: gray;
+    top: 50%;
+    transform: translateY(-50%);
+    content: " ";
+    left: -25px;
+}
+
+.slideAboutSecond {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/bg-slider-aboutfirst.jpeg");
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideAboutSecond p {
+    max-width: 80%;
+    font-size: 26px;
+    line-height: 1.8;
+}
+
+.slideAboutSecondFirst {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/tree-about-sliderfirst.jpg");
+}
+
+.slideAboutSecondFirst .firstContainerInner {
+    width: 100%;
+}
+
+.slideAboutSecondSecond {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/sign-about-slidersecond.jpg");
+}
+
+.slideAboutSecondSecond .firstContainerInner {
+    width: 100%;
+}
+
+.slideAboutSecondThird {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/mountain-about-slidersecond.jpg");
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
