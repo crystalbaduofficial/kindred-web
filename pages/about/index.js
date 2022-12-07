@@ -6,22 +6,27 @@ import Footer from '../../src/Components/Footer'
 import { useEffect, useState } from 'react'
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
 
+// import firstVideo from "../../assets/videos/about-first-video.mp4"
+// import secondVideo from "../../assets/videos/about-second-video.mp4"
+// import thirdVideo from "../../assets/videos/about-third-video.mp4"
+// import fourthVideo from "../../assets/videos/about-fourth-video.mp4"
+
 export default function About() {
     const [currentSlide, setCurrentSlide] = useState(0)
     const [currentSlideSecond, setCurrentSlideSecond] = useState(0)
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            let allSlides = document.querySelectorAll(".carouselAbout .carousel-slide")
-            if (currentSlide < allSlides.length - 1) {
-                setCurrentSlide(currentSlide + 1)
-            } else {
-                setCurrentSlide(0)
-            }
-        }, 6000);
-        return () => clearInterval(interval);
-    }, [currentSlide]);
-    
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         let allSlides = document.querySelectorAll(".carouselAbout .carousel-slide")
+    //         if (currentSlide < allSlides.length - 1) {
+    //             setCurrentSlide(currentSlide + 1)
+    //         } else {
+    //             setCurrentSlide(0)
+    //         }
+    //     }, 6000);
+    //     return () => clearInterval(interval);
+    // }, [currentSlide]);
+
     useEffect(() => {
         const interval = setInterval(() => {
             let allSlides = document.querySelectorAll(".carouselAboutSecond .carousel-slide")
@@ -56,21 +61,25 @@ export default function About() {
                         <h2>Biblical Beliefs</h2>
                         <div className={styles.containerAboutfirst}>
                             <div className={styles.containerAboutfirstInner} data-aos="fade-right">
+                                <video src={require('../../assets/videos/about-first-video.mp4')} playsInline autoPlay muted loop></video>
                                 <h3>God Will Give You Rest</h3>
                                 <p>If you are tired from carrying heavy burdens, come to me and I will give you rest. Take the yoke I give you. Put it on your shoulders and learn from me. I am gentle and humble, and you will find rest. This yoke is easy to bear, and this burden is light.</p>
                                 <p>Matthew 11:28-30</p>
                             </div>
                             <div className={styles.containerAboutfirstInner} data-aos="fade-right">
+                                <video src={require('../../assets/videos/about-second-video.mp4')} playsInline autoPlay muted loop></video>
                                 <h3>Come As You Are</h3>
                                 <p>If you are tired from carrying heavy burdens, come to me and I will give you rest. Take the yoke I give you. Put it on your shoulders and learn from me. I am gentle and humble, and you will find rest. This yoke is easy to bear, and this burden is light.</p>
                                 <p>Ephesians 2:19</p>
                             </div>
                             <div className={styles.containerAboutfirstInner} data-aos="fade-right">
+                                <video src={require('../../assets/videos/about-third-video.mp4')} playsInline autoPlay muted loop></video>
                                 <h3>Leave God and Others Unconditionally</h3>
                                 <p>"And you must love the Lord your God with all your heart, all your soul, all your mind, and all your strength. 'The second is equally important: 'Love your neighbor as yourself.' No other commandment is greater than these."</p>
                                 <p>Mark 12:30-31</p>
                             </div>
                             <div className={styles.containerAboutfirstInner} data-aos="fade-right">
+                                <video src={require('../../assets/videos/about-fourth-video.mp4')} playsInline autoPlay muted loop></video>
                                 <h3>God Desires to Be Known</h3>
                                 <p>"I will give them a heart to know that I am the Lord, and they shall be my people and I will be their God, for they shall return to me with their whole heart."</p>
                                 <p>Jeremiah 24:7</p>

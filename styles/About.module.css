@@ -60,7 +60,7 @@
 
 .containerAboutfirstInner {
     width: 23%;
-    height: 340px;
+    height: 440px;
     background-color: white;
     border-radius: 16px;
     text-align: center;
@@ -71,13 +71,21 @@
     justify-content: center;
 }
 
-.containerAboutfirstInner p:nth-child(3) {
+.containerAboutfirstInner video {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.containerAboutfirstInner p:nth-child(4) {
     font-size: 22px;
     color: gray;
     position: relative;
 }
 
-.containerAboutfirstInner p:nth-child(3)::before {
+.containerAboutfirstInner p:nth-child(4)::before {
     position: absolute;
     width: 15px;
     height: 2px;

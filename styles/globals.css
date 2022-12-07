@@ -78,8 +78,28 @@ a {
   align-items: center;
 }
 
+.carouselTmtc .carousel-slide:nth-child(2) {
+  background-image: url("../assets/images/third-slider-second-tmtc.jpg");
+}
+
+.carouselTmtc .carousel-slide:nth-child(3) {
+  background-image: url("../assets/images/third-slider-third-tmtc.jpg");
+}
+
+.carouselTmtc .carousel-slide:nth-child(4) {
+  background-image: url("../assets/images/third-slider-fourth-tmtc.jpg");
+}
+
 .carouselTmtcSecond {
   height: 600px;
+}
+
+.carouselTmtcSecond .carousel-slide:nth-child(1) {
+  background-image: url("../assets/images/youtube-pic-gi.jpg");
+}
+
+.carouselTmtcSecond .carousel-slide:nth-child(2) {
+  background-image: url("../assets/images/second-section-tmtc.jpg");
 }
 
 /* about carousel */

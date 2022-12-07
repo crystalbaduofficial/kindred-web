@@ -16,22 +16,37 @@ export default function Services() {
             <div className={styles.mainContServices}>
                 <div className={styles.innerContainerServices}>
                     <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-first-video.mp4')} playsInline autoPlay muted loop></video>
                         <h3>Connect Authentically</h3>
                         <p>We believe strongly in the power of relationships. It is through relationships that God works in people's lives. And it is through relationships that we are able to carry out all these other core values</p>
                     </div>
                     <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-second-video.mp4')} playsInline autoPlay muted loop></video>
                         <h3>Harbor Safety</h3>
                         <p>Often times people don't feel very safe in traditional churches. They often feel judged from the moment they walk in the door. So we are going to fight to create an environment where all people feel safe</p>
                     </div>
                     <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-third-video.mp4')} playsInline autoPlay muted loop></video>
                         <h3>Share Boldly</h3>
                         <p>We also believe in finding tangible ways to share the gospel in our everyday lives, and not just on Sunday mornings. But we want to do it in bold and loving ways</p>
                     </div>
                     <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-fourth-video.mp4')} playsInline autoPlay muted loop></video>
                         <h3>Serve Selflessly</h3>
                         <p>As a church, we believe in being the church. We want to be a church that actively lives out our faith by serving the community</p>
                     </div>
                     <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-fifth-video.mp4')} playsInline autoPlay muted loop></video>
+                        <h3>Love Deeply</h3>
+                        <p>We will proactively love people for who they are, and no matter what kind of life they live</p>
+                    </div>
+                    <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-sixth-video.mp4')} playsInline autoPlay muted loop></video>
+                        <h3>Share Boldly</h3>
+                        <p>We also believe in finding tangible ways to share the gospel in our everyday lives, and not just on Sunday mornings. But we want to do it in bold and loving ways</p>
+                    </div>
+                    <div className={styles.contentContainer}>
+                        <video src={require('../../assets/videos/services-seventh-video.mp4')} playsInline autoPlay muted loop></video>
                         <h3>Love Deeply</h3>
                         <p>We will proactively love people for who they are, and no matter what kind of life they live</p>
                     </div>

@@ -52,7 +52,7 @@ export default function Home() {
                     <p>Join us live on Social Media <AiOutlineArrowRight /></p>
                 </div>
             </div>
-            <div className={styles.firstContainer}>
+            <div className={styles.secondContainer}>
                 <div className={styles.firstContainerInner}>
                     <h2 data-aos="fade-right"
                         data-aos-duration="500">Recent Sermons</h2>

@@ -1,7 +1,21 @@
 .firstContainer {
     width: 100%;
     height: 100vh;
-    background-image: url("../assets/images/bg-image.jpg");
+    background-image: url("../assets/images/worship-main.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.secondContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/images/second-section-tmtc.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,12 +108,35 @@
     width: 31%;
     margin-bottom: 30px;
     height: 300px;
-    background-image: url("../assets/images/bg-image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+}
+
+.innerContainerFtmtc:nth-child(1) {
+    background-image: url("../assets/images/third-slider-second-tmtc.jpg");
+}
+
+.innerContainerFtmtc:nth-child(2) {
+    background-image: url("../assets/images/community-prsecond.jpg");
+}
+
+.innerContainerFtmtc:nth-child(3) {
+    background-image: url("../assets/images/mountain-about-slidersecond.jpg");
+}
+
+.innerContainerFtmtc:nth-child(4) {
+    background-image: url("../assets/images/tree-about-sliderfirst.jpg");
+}
+
+.innerContainerFtmtc:nth-child(5) {
+    background-image: url("../assets/images/get-involved-first.jpg");
+}
+
+.innerContainerFtmtc:nth-child(6) {
+    background-image: url("../assets/images/second-section-tmtc.jpg");
 }
 
 .videoTitleMain {
