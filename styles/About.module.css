@@ -158,3 +158,63 @@
     padding-left: 30px;
     padding-bottom: 30px;
 }
+
+@media only screen and (max-width: 1500px) {
+    .slideAboutSecond p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bannerAboutImage {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .slideAboutFirst {
+        padding-top: 20px;
+    }
+
+    .containerAboutfirst {
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .containerAboutfirstInner {
+        width: 80%;
+        margin-bottom: 10px;
+        height: 230px;
+        padding: 8px;
+    }
+
+    .containerAboutfirstInner video {
+        width: 50px;
+        height: 50px;
+    }
+
+    .containerAboutfirstInner h3 {
+        font-size: 11px;
+    }
+
+    .containerAboutfirstInner p {
+        font-size: 9px;
+        margin: 0px;
+        margin-bottom: 8px;
+    }
+
+    .containerAboutfirstInner p:nth-child(4) {
+        font-size: 9px;
+    }
+
+    .slideAboutSecond p {
+        font-size: 14px;
+    }
+
+    .slideAboutSecondThird {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+}

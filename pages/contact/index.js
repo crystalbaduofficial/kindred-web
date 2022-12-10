@@ -16,8 +16,8 @@ export default function Contact() {
             <Navbar />
             <div className={styles.contactSectionFirst}>
                 <div className={styles.sectionFirstInner}>
-                    <h2 data-aos="fade-right" data-aos-duration="500">Get in Touch</h2>
-                    <p data-aos="fade-right" data-aos-duration="500">Contact us by leaving a submission</p>
+                    <h2 data-aos="fade-right">Get in Touch</h2>
+                    <p data-aos="fade-right">Contact us by leaving a submission</p>
                 </div>
             </div>
             <div className={styles.contentContact}>

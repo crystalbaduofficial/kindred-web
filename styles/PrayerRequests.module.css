@@ -94,13 +94,13 @@
     margin-left: 8px;
 }
 
-.zipCodeMainTop { 
+.zipCodeMainTop {
     border-top: 1px solid #d3d3d3;
     margin-top: 30px;
 }
 
 .zipCodeMainTop .innerRowPreq {
-    margin-top: 25px; 
+    margin-top: 25px;
 }
 
 .zipCodeMainTop label {
@@ -110,4 +110,30 @@
 
 .zipCodeMainTop input {
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .containerPreqMain {
+        flex-direction: column;
+    }
+
+    .imgContPreqMain {
+        height: 250px;
+        width: 100%;
+    }
+
+    .contentContPreqMain {
+        width: 90%;
+    }
+
+    .contentContPreqMain h3 {
+        text-align: left;
+    }
+
+    .prmparafirst {
+        line-height: 1.2;
+        font-size: 16px;
+        margin-top: 20px;
+        width: 100%;
+    }
 }

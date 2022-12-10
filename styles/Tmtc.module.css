@@ -184,3 +184,39 @@
 .bottomLeftContainerWhole p svg {
     margin-left: 8px;
 }
+
+@media only screen and (max-width: 767px) {
+    .firstContainer {
+        padding-left: 10px;
+    }
+
+    .secondContainer {
+        padding-left: 10px;
+    }
+
+    .firstContainerInner {
+        max-width: calc(100% - 10px);
+    }
+
+    .containerFourthTmtc {
+        width: 90%;
+    }
+
+    .innerContainerFtmtc {
+        width: 47%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .bottomLeftContainerWhole p {
+        font-size: 14px;
+    }
+
+    .bottomLeftContainerWhole p br {
+        display: none;
+    }
+
+    .bottomLeftContainerWhole {
+        padding-left: 50px;
+    }
+}

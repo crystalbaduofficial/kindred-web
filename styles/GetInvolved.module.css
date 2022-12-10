@@ -129,3 +129,18 @@
 .bottomLeftContainerWhole p svg {
     margin-left: 8px;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .bottomLeftContainerWhole p {
+        font-size: 14px;
+    }
+
+    .bottomLeftContainerWhole p br {
+        display: none;
+    }
+
+    .bottomLeftContainerWhole {
+        padding-left: 50px;
+    }
+}

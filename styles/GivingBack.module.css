@@ -91,3 +91,33 @@
     vertical-align: middle;
     margin-left: 8px;
 }
+
+@media only screen and (max-width: 767px) {
+    .firstContainerGivingBack {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .secondContainerGivingBack {
+        padding-bottom: 0px;
+    }
+
+    .thirdContainerGivingBack {
+        padding: 10px;
+    }
+
+    .containerContentThird {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .innerCct {
+        width: 48%;
+        height: 160px;
+    }
+
+    .innerCct:nth-child(3) {
+        width: 100%;
+        margin-top: 15px;
+    }
+}

@@ -48,7 +48,7 @@ export default function PrayerRequests() {
                         <div className={styles.zipCodeMainTop}>
                             <div className={styles.innerRowPreq}>
                                 <label>Zip Code *</label>
-                                <input type="number" placeholder="Mobile Phone" />
+                                <input type="text" placeholder="Zip Code" />
                             </div>
                         </div>
                     </div>

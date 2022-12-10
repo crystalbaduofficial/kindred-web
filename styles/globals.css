@@ -162,3 +162,19 @@ a {
     background: black;
   }
 } */
+
+@media only screen and (max-width: 767px) {
+  .slider-left-icon {
+    font-size: 20px;
+    left: 10px;
+  }
+
+  .slider-right-icon {
+    right: 10px;
+    font-size: 20px;
+  }
+
+  .carouselAbout {
+    height: 1080px;
+  }
+}

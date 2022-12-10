@@ -22,6 +22,18 @@ export default function GetInvolved() {
         return () => clearInterval(interval);
     }, [currentSlide]);
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            let allSlides = document.querySelectorAll(".carouselGetInvolvedSecond .carousel-slide")
+            if (currentSlideSecond < allSlides.length - 1) {
+                setCurrentSlideSecond(currentSlideSecond + 1)
+            } else {
+                setCurrentSlideSecond(0)
+            }
+        }, 6000);
+        return () => clearInterval(interval);
+    }, [currentSlideSecond]);
+
     return (
         <div >
             <Head>

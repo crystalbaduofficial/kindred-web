@@ -40,3 +40,75 @@
 .containerNavbar ul li:last-child {
     margin-right: 0px;
 }
+
+@media only screen and (max-width: 1240px) {
+    .containerNavbar ul li {
+        font-size: 11px;
+    }
+
+    .containerNavbar img {
+        max-width: 125px;
+        max-height: 50px;
+    }
+}
+
+.mobileList {
+    display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktopList {
+        display: none !important;
+    }
+
+    .mobileList {
+        display: inline-block !important;
+    }
+
+    .navbarMain {
+        height: 75px;
+    }
+
+    .containerNavbar {
+        height: 100%;
+    }
+}
+
+.fullPagePopup {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 999;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullPagePopup svg {
+    font-size: 40px;
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    color: hsl(221, 51%, 28%);
+}
+
+.fullPagePopup ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+}
+
+.fullPagePopup ul li {
+    margin-bottom: 2vw;
+    line-height: 30px;
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    position: relative;
+    cursor: pointer;
+    color: hsl(221, 51%, 28%);
+}
