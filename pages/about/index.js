@@ -75,13 +75,13 @@ export default function About() {
                             <div className={styles.containerAboutfirstInner} data-aos="fade-right">
                                 <video src={require('../../assets/videos/about-third-video.mp4')} playsInline autoPlay muted loop></video>
                                 <h3>Leave God and Others Unconditionally</h3>
-                                <p>"And you must love the Lord your God with all your heart, all your soul, all your mind, and all your strength. 'The second is equally important: 'Love your neighbor as yourself.' No other commandment is greater than these."</p>
+                                <p>&quot;And you must love the Lord your God with all your heart, all your soul, all your mind, and all your strength. &apos;The second is equally important: &apos;Love your neighbor as yourself.&apos; No other commandment is greater than these.&quot;</p>
                                 <p>Mark 12:30-31</p>
                             </div>
                             <div className={styles.containerAboutfirstInner} data-aos="fade-right">
                                 <video src={require('../../assets/videos/about-fourth-video.mp4')} playsInline autoPlay muted loop></video>
                                 <h3>God Desires to Be Known</h3>
-                                <p>"I will give them a heart to know that I am the Lord, and they shall be my people and I will be their God, for they shall return to me with their whole heart."</p>
+                                <p>&quot;I will give them a heart to know that I am the Lord, and they shall be my people and I will be their God, for they shall return to me with their whole heart.&quot;</p>
                                 <p>Jeremiah 24:7</p>
                             </div>
                         </div>
