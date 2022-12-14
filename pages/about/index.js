@@ -5,6 +5,7 @@ import styles from "../../styles/About.module.css"
 import Footer from '../../src/Components/Footer'
 import { useEffect, useState } from 'react'
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
+import Link from 'next/link'
 
 // import firstVideo from "../../assets/videos/about-first-video.mp4"
 // import secondVideo from "../../assets/videos/about-second-video.mp4"
@@ -52,7 +53,7 @@ export default function About() {
                 <div className={styles.firstContainerInner}>
                     <h2 data-aos="fade-right">Our Story</h2>
                     <p data-aos="fade-right" style={{ maxWidth: 390, lineHeight: 1.3 }}>Over 80 years ago, the El Cajon Blvd Church of Christ saw a desperate need to plant churches all over San Diego, and in just over 12 years they have planted 11 churches and solidified a dream.</p>
-                    <p data-aos="fade-right">Read More <AiOutlineArrowRight /></p>
+                    <p data-aos="fade-right"><Link href="/our-story">Read More <AiOutlineArrowRight /> </Link></p>
                 </div>
             </div>
             <div className={`carousel-main-own carouselAbout`}>
