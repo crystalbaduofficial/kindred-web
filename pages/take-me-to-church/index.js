@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import Navbar from '../../src/Components/Navbar'
 import styles from "../../styles/Tmtc.module.css"
+import bannerVideo from "../../assets/videos/bannervideo.mp4"
 import placeholder from "../../assets/images/bg-image.jpg"
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
 import { useEffect, useState } from 'react'
@@ -47,6 +48,7 @@ export default function Home() {
 
             <Navbar />
             <div className={styles.firstContainer}>
+                <video src={bannerVideo} autoPlay muted loop></video>
                 <div className={styles.firstContainerInner}>
                     <h2>Join Us For Live Worship</h2>
                     <p>Join us live on Social Media <AiOutlineArrowRight /></p>
