@@ -12,6 +12,7 @@ import Footer from '../../src/Components/Footer'
 export default function Home() {
 
     const [currentSlide, setCurrentSlide] = useState(0)
+    const [currentSlideMain, setCurrentSlideMain] = useState(0)
     const [currentSlideSecond, setCurrentSlideSecond] = useState(0)
 
     useEffect(() => {
@@ -25,6 +26,18 @@ export default function Home() {
         }, 6000);
         return () => clearInterval(interval);
     }, [currentSlide]);
+
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         let allSlides = document.querySelectorAll(".carouselTmtcMain .carousel-slide")
+    //         if (currentSlideMain < allSlides.length - 1) {
+    //             setCurrentSlideMain(currentSlideMain + 1)
+    //         } else {
+    //             setCurrentSlideMain(0)
+    //         }
+    //     }, 6000);
+    //     return () => clearInterval(interval);
+    // }, [currentSlideMain]);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -54,15 +67,62 @@ export default function Home() {
                     <p>Join us live on Social Media <AiOutlineArrowRight /></p>
                 </div>
             </div>
-            <div className={styles.secondContainer}>
-                <div className={styles.firstContainerInner}>
-                    <h2 data-aos="fade-right"
-                        data-aos-duration="500">Recent Sermons</h2>
-                    <p data-aos="fade-right"
-                        data-aos-duration="500">Our most recent sermons with messages for you</p>
-                    <p data-aos="fade-right"
-                        data-aos-duration="500">Watch Now <AiOutlineArrowRight /></p>
+
+            <div className="carousel-main-own carouselTmtcMain">
+                <div className={`carousel-slide ${currentSlideMain === 0 ? "active" : ""}`}>
+                    <div className={styles.secondContainer}>
+                        <div className={styles.firstContainerInner}>
+                            <h2 data-aos="fade-right"
+                                data-aos-duration="500">Recent Sermons</h2>
+                            <p data-aos="fade-right"
+                                data-aos-duration="500">Our most recent sermons with messages for you</p>
+                            <p data-aos="fade-right"
+                                data-aos-duration="500">Watch Now <AiOutlineArrowRight /></p>
+                        </div>
+                    </div>
                 </div>
+                <div className={`carousel-slide ${currentSlideMain === 1 ? "active" : ""}`}>
+                    <div className={styles.mainTeamContainer}>
+                        <div className={styles.innerTeamContainer}>
+                            <div className={styles.teamMemberBgImage}>
+
+                            </div>
+                            <div className={styles.contentTeamMember}>
+                                <h3>Member Name</h3>
+                                <p>Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member</p>
+                            </div>
+                        </div>
+                        <div className={styles.innerTeamContainer}>
+                            <div className={styles.teamMemberBgImage}>
+
+                            </div>
+                            <div className={styles.contentTeamMember}>
+                                <h3>Member Name</h3>
+                                <p>Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member</p>
+                            </div>
+                        </div>
+                        <div className={styles.innerTeamContainer}>
+                            <div className={styles.teamMemberBgImage}>
+
+                            </div>
+                            <div className={styles.contentTeamMember}>
+                                <h3>Member Name</h3>
+                                <p>Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <BsChevronRight className='slider-right-icon' onClick={() => {
+                    let allSlides = document.querySelectorAll(".carouselTmtcMain .carousel-slide")
+                    if (currentSlideMain < allSlides.length - 1) {
+                        setCurrentSlideMain(currentSlideMain + 1)
+                    }
+                }} />
+                <BsChevronLeft className='slider-left-icon' onClick={() => {
+                    if (currentSlideMain > 0) {
+                        setCurrentSlideMain(currentSlideMain - 1)
+                    }
+                }} />
             </div>
             <div className="carousel-main-own carouselTmtc">
                 <div className={`carousel-slide ${currentSlide === 0 ? "active" : ""}`}>
