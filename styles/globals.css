@@ -78,6 +78,10 @@ a {
   align-items: center;
 }
 
+.carouselTmtc .carousel-slide:nth-child(1) {
+  background-image: url("../assets/images/third-section-tmtcfirst.jpg");
+}
+
 .carouselTmtc .carousel-slide:nth-child(2) {
   background-image: url("../assets/images/third-slider-second-tmtc.jpg");
 }

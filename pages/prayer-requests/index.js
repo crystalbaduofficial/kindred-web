@@ -43,6 +43,12 @@ export default function PrayerRequests() {
                 setFirstName("")
                 setLastName("")
             })
+        } else {
+            Swal.fire(
+                'Sorry',
+                'Please fill all fields to continue.',
+                'warning'
+            )
         }
     }
 
