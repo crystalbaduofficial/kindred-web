@@ -124,7 +124,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/tree-about-sliderfirst.jpg");
+    background-image: url("./bgimages/tree-about-sliderfirst.jpg");
 }
 
 .slideAboutSecondFirst .firstContainerInner {
@@ -154,7 +154,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/mountain-about-slidersecond.jpg");
+    background-image: url("./bgimages/mountain-about-slidersecond.jpg");
     padding-left: 30px;
     padding-bottom: 30px;
 }

@@ -83,7 +83,7 @@ a {
 }
 
 .carouselTmtc .carousel-slide:nth-child(2) {
-  background-image: url("../assets/images/third-slider-second-tmtc.jpg");
+  background-image: url("./bgimages/third-slider-second-tmtc.jpg");
 }
 
 .carouselTmtc .carousel-slide:nth-child(3) {
@@ -103,7 +103,7 @@ a {
 }
 
 .carouselTmtcSecond .carousel-slide:nth-child(2) {
-  background-image: url("../assets/images/second-section-tmtc.jpg");
+  background-image: url("./bgimages/second-section-tmtc.jpg");
 }
 
 /* about carousel */

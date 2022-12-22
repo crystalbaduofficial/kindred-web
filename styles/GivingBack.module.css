@@ -72,7 +72,7 @@
 }
 
 .innerCct:nth-child(2) {
-    background-image: url("../assets/images/community-prsecond.jpg");
+    background-image: url("./bgimages/community-prsecond.jpg");
 }
 
 .innerCct:nth-child(3) {

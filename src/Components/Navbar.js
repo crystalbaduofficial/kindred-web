@@ -17,7 +17,7 @@ function Navbar() {
                 <ul className={styles.desktopList}>
                     <li><Link href="/take-me-to-church">Take Me to Church</Link></li>
                     <li><Link href="/about">About Kindred</Link></li>
-                    <li><Link href="/get-involved">How can I Get Involved</Link></li>
+                    <li><Link href="/get-involved">Get Involved</Link></li>
                     <li><Link href="/giving-back">Giving Back</Link></li>
                     <li><Link href="/prayer-requests">Prayer Requests</Link></li>
                     <li><Link href="/contact">Contact Us</Link></li>
