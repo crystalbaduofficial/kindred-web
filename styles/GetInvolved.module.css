@@ -28,7 +28,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/get-involved-second.jpg");
+    background-image: url("./bgimages/get-involved-second.jpg");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -41,7 +41,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/prayer-request-pic.jpg");
+    background-image: url("./bgimages/prayer-request-pic.jpg");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -54,7 +54,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/get-involved-fourth.jpg");
+    background-image: url("./bgimages/get-involved-fourth.jpg");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -75,7 +75,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/get-involved-secondsec.jpg");
+    background-image: url("./bgimages/get-involved-secondsec.jpg");
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,7 +88,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../assets/images/youtube-pic-gi.jpg");
+    background-image: url("./bgimages/youtube-pic-gi.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
