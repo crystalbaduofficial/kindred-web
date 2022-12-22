@@ -12,7 +12,7 @@
 
 .imgContPreqMain {
     width: 40%;
-    background-image: url("./bgimages/prayer-request-pic.jpg");
+    background-image: url("../public/bgimages/prayer-request-pic.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
