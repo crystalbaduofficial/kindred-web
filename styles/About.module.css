@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/about-banner.jpg");
+    background-image: url("../assets/images/about-banner.jpg");
     margin-top: 75px;
     display: flex;
     align-items: flex-end;
@@ -32,7 +32,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/bg-slider-aboutfirst.jpeg");
+    background-image: url("../assets/images/bg-slider-aboutfirst.jpeg");
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/bg-slider-aboutfirst.jpeg");
+    background-image: url("../assets/images/bg-slider-aboutfirst.jpeg");
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/tree-about-sliderfirst.jpg");
+    background-image: url("../assets/images/tree-about-sliderfirst.jpg");
 }
 
 .slideAboutSecondFirst .firstContainerInner {
@@ -139,7 +139,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/sign-about-slidersecond.jpg");
+    background-image: url("../assets/images/sign-about-slidersecond.jpg");
 }
 
 .slideAboutSecondSecond .firstContainerInner {
@@ -154,7 +154,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/mountain-about-slidersecond.jpg");
+    background-image: url("../assets/images/mountain-about-slidersecond.jpg");
     padding-left: 30px;
     padding-bottom: 30px;
 }

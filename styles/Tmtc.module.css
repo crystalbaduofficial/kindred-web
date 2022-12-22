@@ -24,7 +24,7 @@
 .secondContainer {
     width: 100%;
     height: 100vh;
-    background-image: url("../public/bgimages/second-section-tmtc.jpg");
+    background-image: url("../assets/images/second-section-tmtc.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,27 +125,27 @@
 }
 
 .innerContainerFtmtc:nth-child(1) {
-    background-image: url("../public/bgimages/third-slider-second-tmtc.jpg");
+    background-image: url("../assets/images/third-slider-second-tmtc.jpg");
 }
 
 .innerContainerFtmtc:nth-child(2) {
-    background-image: url("../public/bgimages/community-prsecond.jpg");
+    background-image: url("../assets/images/community-prsecond.jpg");
 }
 
 .innerContainerFtmtc:nth-child(3) {
-    background-image: url("../public/bgimages/mountain-about-slidersecond.jpg");
+    background-image: url("../assets/images/mountain-about-slidersecond.jpg");
 }
 
 .innerContainerFtmtc:nth-child(4) {
-    background-image: url("../public/bgimages/tree-about-sliderfirst.jpg");
+    background-image: url("../assets/images/tree-about-sliderfirst.jpg");
 }
 
 .innerContainerFtmtc:nth-child(5) {
-    background-image: url("../public/bgimages/get-involved-first.jpg");
+    background-image: url("../assets/images/get-involved-first.jpg");
 }
 
 .innerContainerFtmtc:nth-child(6) {
-    background-image: url("../public/bgimages/second-section-tmtc.jpg");
+    background-image: url("../assets/images/second-section-tmtc.jpg");
 }
 
 .videoTitleMain {
@@ -223,7 +223,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url("../public/bgimages/about-banner.jpg");
+    background-image: url("../assets/images/about-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

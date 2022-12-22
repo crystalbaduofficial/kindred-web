@@ -5,6 +5,12 @@ import Navbar from '../../src/Components/Navbar'
 import styles from "../../styles/Tmtc.module.css"
 import bannerVideo from "../../assets/videos/bannervideo.mp4"
 import placeholder from "../../assets/images/bg-image.jpg"
+import slideFirstPic from "../../assets/images/third-section-tmtcfirst.jpg"
+import slideSecondPic from "../../assets/images/third-slider-second-tmtc.jpg"
+import slideThirdPic from "../../assets/images/third-slider-third-tmtc.jpg"
+import slideFourthPic from "../../assets/images/third-slider-fourth-tmtc.jpg"
+import slideSeFirstPic from "../../assets/images/youtube-pic-gi.jpg"
+import slideSeSecPic from "../../assets/images/second-section-tmtc.jpg"
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
 import { useEffect, useState } from 'react'
 import Footer from '../../src/Components/Footer'
@@ -125,27 +131,27 @@ export default function Home() {
                 }} />
             </div>
             <div className="carousel-main-own carouselTmtc">
-                <div className={`carousel-slide ${currentSlide === 0 ? "active" : ""}`}>
+                <div className={`carousel-slide ${currentSlide === 0 ? "active" : ""}`} style={{ backgroundImage: `url("${slideFirstPic.src}")` }}>
                     <div className={styles.contentTmTcFirst}>
                         <h2>Sermon Series</h2>
                         <p>Watch Now <AiOutlineArrowRight /></p>
                     </div>
                 </div>
-                <div className={`carousel-slide ${currentSlide === 1 ? "active" : ""}`}>
+                <div className={`carousel-slide ${currentSlide === 1 ? "active" : ""}`} style={{ backgroundImage: `url("${slideSecondPic.src}")` }}>
                     <div className={styles.bottomLeftContainer}>
                         <h2>In-Person Worship</h2>
                         <p>Gather with us for worship on Wednesday’s <br /> (7PM) and Sunday’s (10AM)</p>
                         <p>Visit our Calendar <AiOutlineArrowRight /></p>
                     </div>
                 </div>
-                <div className={`carousel-slide ${currentSlide === 2 ? "active" : ""}`}>
+                <div className={`carousel-slide ${currentSlide === 2 ? "active" : ""}`} style={{ backgroundImage: `url("${slideThirdPic.src}")` }}>
                     <div className={styles.bottomLeftContainer}>
                         <h2>Small Groups</h2>
                         <p>Small groups are vital to the health and well-<br />being of Kindred Church, and to your own<br />personal spiritual growth.</p>
                         <p>Get Involved <AiOutlineArrowRight /></p>
                     </div>
                 </div>
-                <div className={`carousel-slide ${currentSlide === 3 ? "active" : ""}`}>
+                <div className={`carousel-slide ${currentSlide === 3 ? "active" : ""}`} style={{ backgroundImage: `url("${slideFourthPic.src}")` }}>
                     <div className={styles.bottomLeftContainer}>
                         <h2>Praise & Worship</h2>
                         <p>At Kindred Church we are passionate about <br />worship. Here are some of our favorite songs.</p>
@@ -190,7 +196,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="carousel-main-own carouselTmtcSecond">
-                <div className={`carousel-slide ${currentSlideSecond === 0 ? "active" : ""}`}>
+                <div className={`carousel-slide ${currentSlideSecond === 0 ? "active" : ""}`} style={{ backgroundImage: `url("${slideSeFirstPic.src}")` }}>
                     <div className={styles.bottomLeftContainerWhole}>
                         <h2>Youtube Channel</h2>
                         <p>
@@ -200,7 +206,7 @@ export default function Home() {
                         <p>Watch Now <AiOutlineArrowRight /></p>
                     </div>
                 </div>
-                <div className={`carousel-slide ${currentSlideSecond === 1 ? "active" : ""}`}>
+                <div className={`carousel-slide ${currentSlideSecond === 1 ? "active" : ""}`} style={{ backgroundImage: `url("${slideSeSecPic.src}")` }}>
                     <div className={styles.bottomLeftContainerWhole}>
                         <h2>Kindred Podcasts</h2>
                         <p>

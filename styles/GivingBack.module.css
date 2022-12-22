@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/heart-giving-back.png");
+    background-image: url("../assets/images/heart-giving-back.png");
     margin-top: 75px;
     display: flex;
     align-items: flex-end;
@@ -32,7 +32,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../public/bgimages/globe-giving-back.png");
+    background-image: url("../assets/images/globe-giving-back.png");
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -68,12 +68,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-image: url("../public/bgimages/"); */
-    background-image: url("../public/bgimages/community-prfirst.jpg");
+    /* background-image: url("../assets/images/"); */
+    background-image: url("../assets/images/community-prfirst.jpg");
 }
 
 .innerCct:nth-child(2) {
-    background-image: url("../public/bgimages/community-prsecond.jpg");
+    background-image: url("../assets/images/community-prsecond.jpg");
 }
 
 .innerCct:nth-child(3) {
