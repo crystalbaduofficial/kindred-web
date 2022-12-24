@@ -95,6 +95,37 @@ export default function About() {
                         </p>
                     </div>
                 </div>
+                <div className={`carousel-slide ${currentSlide === 2 ? "active" : ""}`}>
+                    <div className={styles.mainTeamContainer}>
+                        <div className={styles.innerTeamContainer}>
+                            <div className={styles.teamMemberBgImage}>
+
+                            </div>
+                            <div className={styles.contentTeamMember}>
+                                <h3>Member Name</h3>
+                                <p>Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member</p>
+                            </div>
+                        </div>
+                        <div className={styles.innerTeamContainer}>
+                            <div className={styles.teamMemberBgImage}>
+
+                            </div>
+                            <div className={styles.contentTeamMember}>
+                                <h3>Member Name</h3>
+                                <p>Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member</p>
+                            </div>
+                        </div>
+                        <div className={styles.innerTeamContainer}>
+                            <div className={styles.teamMemberBgImage}>
+
+                            </div>
+                            <div className={styles.contentTeamMember}>
+                                <h3>Member Name</h3>
+                                <p>Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member Some additional description regarding this team member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <BsChevronRight className='slider-right-icon' onClick={() => {
                     let allSlides = document.querySelectorAll(".carouselAbout .carousel-slide")
                     if (currentSlide < allSlides.length - 1) {

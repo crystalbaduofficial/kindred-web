@@ -1,15 +1,15 @@
 .footerMain {
     width: 100%;
     padding: 25px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contentFooter {
+/* .contentFooter {
     color: white;
-}
+} */
 
 .contentFooter h2 {
     margin: 0px;

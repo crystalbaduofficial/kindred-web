@@ -18,7 +18,6 @@ import Footer from '../../src/Components/Footer'
 export default function Home() {
 
     const [currentSlide, setCurrentSlide] = useState(0)
-    const [currentSlideMain, setCurrentSlideMain] = useState(0)
     const [currentSlideSecond, setCurrentSlideSecond] = useState(0)
 
     useEffect(() => {
@@ -32,18 +31,6 @@ export default function Home() {
         }, 6000);
         return () => clearInterval(interval);
     }, [currentSlide]);
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         let allSlides = document.querySelectorAll(".carouselTmtcMain .carousel-slide")
-    //         if (currentSlideMain < allSlides.length - 1) {
-    //             setCurrentSlideMain(currentSlideMain + 1)
-    //         } else {
-    //             setCurrentSlideMain(0)
-    //         }
-    //     }, 6000);
-    //     return () => clearInterval(interval);
-    // }, [currentSlideMain]);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -70,11 +57,24 @@ export default function Home() {
                 <video src={bannerVideo} autoPlay muted loop></video>
                 <div className={styles.firstContainerInner}>
                     <h2>Join Us For Live Worship</h2>
-                    <p>Join us live on Social Media <AiOutlineArrowRight /></p>
+                    <p style={{ cursor: "pointer" }} onClick={() => {
+                        window.open("https://instagram.com/ydb_ministry?igshid=NTdlMDg3MTY=", "_blank")
+                    }}>Join us live on Social Media <AiOutlineArrowRight /></p>
                 </div>
             </div>
 
-            <div className="carousel-main-own carouselTmtcMain">
+            <div className={styles.secondContainer}>
+                <div className={styles.firstContainerInner}>
+                    <h2 data-aos="fade-right"
+                        data-aos-duration="500">Recent Sermons</h2>
+                    <p data-aos="fade-right"
+                        data-aos-duration="500">Our most recent sermons with messages for you</p>
+                    <p data-aos="fade-right"
+                        data-aos-duration="500">Watch Now <AiOutlineArrowRight /></p>
+                </div>
+            </div>
+
+            {/* <div className="carousel-main-own carouselTmtcMain">
                 <div className={`carousel-slide ${currentSlideMain === 0 ? "active" : ""}`}>
                     <div className={styles.secondContainer}>
                         <div className={styles.firstContainerInner}>
@@ -129,7 +129,7 @@ export default function Home() {
                         setCurrentSlideMain(currentSlideMain - 1)
                     }
                 }} />
-            </div>
+            </div> */}
             <div className="carousel-main-own carouselTmtc">
                 <div className={`carousel-slide ${currentSlide === 0 ? "active" : ""}`} style={{ backgroundImage: `url("${slideFirstPic.src}")` }}>
                     <div className={styles.contentTmTcFirst}>
