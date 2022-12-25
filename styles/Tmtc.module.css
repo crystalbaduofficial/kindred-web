@@ -228,4 +228,12 @@
     .bottomLeftContainerWhole {
         padding-left: 50px;
     }
+
+    .firstContainer video {
+        max-width: none !important;
+    }
+
+    .bottomLeftContainer {
+        width: 100%;
+    }
 }
