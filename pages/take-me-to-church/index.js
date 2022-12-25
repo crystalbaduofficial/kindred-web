@@ -54,7 +54,7 @@ export default function Home() {
 
             <Navbar />
             <div className={styles.firstContainer}>
-                <video src={bannerVideo} autoPlay muted loop></video>
+                <video src={bannerVideo} autoPlay muted loop playsInline></video>
                 <div className={styles.firstContainerInner}>
                     <h2>Join Us For Live Worship</h2>
                     <p style={{ cursor: "pointer" }} onClick={() => {
