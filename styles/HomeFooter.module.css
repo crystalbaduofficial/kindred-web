@@ -36,3 +36,17 @@
     margin-bottom: 0.9rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 767px) {
+    .innerContainerFooterHome {
+        width: 100%;
+    }
+
+    .footerHome {
+        padding: 90px 30px;
+    }
+
+    .containerFooterHome {
+        flex-direction: column;
+    }
+}
