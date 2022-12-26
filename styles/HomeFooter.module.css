@@ -1,0 +1,38 @@
+.footerHome {
+    padding: 90px 0px;
+    background-color: #F8F8F8;
+}
+
+.containerFooterHome {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.innerContainerFooterHome {
+    width: 33.33%;
+}
+
+.innerContainerFooterHome ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.innerContainerFooterHome ul li:first-child {
+    font-size: 15px;
+    line-height: 17px;
+    color: #1d1d1f;
+    margin-bottom: 0.9rem;
+    cursor: initial;
+}
+
+.innerContainerFooterHome ul li {
+    font-size: 12px;
+    line-height: 15px;
+    color: #1d1d1f;
+    margin-bottom: 0.9rem;
+    cursor: pointer;
+}
