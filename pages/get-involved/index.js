@@ -68,7 +68,7 @@ export default function GetInvolved() {
                         </div>
                     </div>
                 </div>
-                <div className={`carousel-slide ${currentSlide === 3 ? "active" : ""}`}>
+                {/* <div className={`carousel-slide ${currentSlide === 3 ? "active" : ""}`}>
                     <div className={styles.slideGetInvolvedFourth}>
                         <div className={styles.containerInnerOverlay}>
                             <h2>Interest Parties</h2>
@@ -76,7 +76,7 @@ export default function GetInvolved() {
                             <p>Watch Now <AiOutlineArrowRight /> </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <BsChevronRight className='slider-right-icon' onClick={() => {
                     let allSlides = document.querySelectorAll(".carouselGetInvolvedFirst .carousel-slide")
                     if (currentSlide < allSlides.length - 1) {
