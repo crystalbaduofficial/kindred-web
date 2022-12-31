@@ -87,8 +87,8 @@ export default function Contact() {
                                 }} />
                             </div>
                         </div>
-                        <div style={{ display: "flex", flexDirection: "row", width: "100%", marginTop: 30, alignItems: "center" }}>
-                            <input type="checkbox" style={{ width: 30, height: 30, marginRight: 0 }} checked={subscriptionCheck} onChange={(e) => {
+                        <div className={styles.checkBoxContainer} style={{ display: "flex", flexDirection: "row", width: "100%", marginTop: 30, alignItems: "center" }}>
+                            <input type="checkbox" style={{ width: 30, height: 30, marginRight: 10 }} checked={subscriptionCheck} onChange={(e) => {
                                 setSubscriptionCheck(e.target.checked)
                             }} />
                             <label>Subscribe to receive texts and emails from Kindred</label>
