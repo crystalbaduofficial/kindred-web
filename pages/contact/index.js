@@ -13,11 +13,11 @@ export default function Contact() {
     const [lastName, setLastName] = useState("")
     const [email, setEmail] = useState("")
     const [phone, setPhone] = useState("")
-
+    const [subscriptionCheck, setSubscriptionCheck] = useState(false)
 
     const submitForm = () => {
         if (email && firstName && lastName && phone) {
-            let sendToObject = { email: email, first_name: firstName, last_name: lastName, tel: phone }
+            let sendToObject = { email: email, first_name: firstName, last_name: lastName, tel: phone, subscription_active: subscriptionCheck ? "yes" : "no" }
             send(
                 'service_umq9ady',
                 'template_axo2dhc',
@@ -47,7 +47,7 @@ export default function Contact() {
     }
 
     return (
-        <div >
+        <div style={{ backgroundColor: "#FAFAFA" }}>
             <Head>
                 <title>Contact - Kindred</title>
                 <meta name="description" content="Contact Kindred" />
@@ -55,43 +55,95 @@ export default function Contact() {
             </Head>
 
             <Navbar />
-            <div className={styles.contactSectionFirst}>
-                <div className={styles.sectionFirstInner}>
-                    <h2 data-aos="fade-right">Get in Touch</h2>
-                    <p data-aos="fade-right">Contact us by leaving a submission</p>
+            <div className={styles.containerPreqMain}>
+                <div className={styles.imgContPreqMain}>
+
+                </div>
+                <div className={styles.contentContPreqMain}>
+                    <h3>Contact</h3>
+                    <p className={styles.prmparafirst}>Need help? Write your request below to contact Kindred.</p>
+                    <div className={styles.contentPreq}>
+                        <div className={styles.rowPreq}>
+                            <div className={styles.innerRowPreq}>
+                                <input type="text" placeholder="First Name *" value={firstName} onChange={(e) => {
+                                    setFirstName(e.target.value)
+                                }} />
+                            </div>
+                            <div className={styles.innerRowPreq}>
+                                <input type="text" placeholder="Last Name *" value={lastName} onChange={(e) => {
+                                    setLastName(e.target.value)
+                                }} />
+                            </div>
+                        </div>
+                        <div className={styles.innerRowPreq}>
+                            <input type="email" placeholder="Email *" value={email} onChange={(e) => {
+                                setEmail(e.target.value)
+                            }} />
+                        </div>
+                        <div className={styles.rowPreq}>
+                            <div className={styles.innerRowPreq}>
+                                <input type="number" placeholder="Mobile Phone" value={phone} onChange={(e) => {
+                                    setPhone(e.target.value)
+                                }} />
+                            </div>
+                        </div>
+                        <div style={{ display: "flex", flexDirection: "row", width: "100%", marginTop: 30, alignItems: "center" }}>
+                            <input type="checkbox" style={{ width: 30, height: 30, marginRight: 0 }} checked={subscriptionCheck} onChange={(e) => {
+                                setSubscriptionCheck(e.target.checked)
+                            }} />
+                            <label>Subscribe to receive texts and emails from Kindred</label>
+                        </div>
+                    </div>
+                    <div className={styles.bottomContainerPreq}>
+                        <p style={{ cursor: "pointer" }} onClick={() => submitForm()}> Submit Request <AiOutlineArrowRight /></p>
+                    </div>
                 </div>
             </div>
-            <div className={styles.contentContact}>
-                <h3>Contact Information</h3>
-                <div className={styles.rowContact}>
-                    <div className={styles.innerRowContact}>
-                        <input type="text" placeholder="First Name *" value={firstName} onChange={(e) => {
-                            setFirstName(e.target.value)
-                        }} />
-                    </div>
-                    <div className={styles.innerRowContact}>
-                        <input type="text" placeholder="Last Name *" value={lastName} onChange={(e) => {
-                            setLastName(e.target.value)
-                        }} />
-                    </div>
-                </div>
-                <div className={styles.innerRowContact}>
-                    <input type="email" placeholder="Email *" value={email} onChange={(e) => {
-                        setEmail(e.target.value)
-                    }} />
-                </div>
-                <div className={styles.rowContact}>
-                    <div className={styles.innerRowContact}>
-                        <input type="number" placeholder="Mobile Phone" value={phone} onChange={(e) => {
-                            setPhone(e.target.value)
-                        }} />
-                    </div>
-                </div>
-            </div>
-            <div className={styles.bottomContainerContact}>
-                <p onClick={() => submitForm()} style={{ cursor: "pointer" }}>Submit Request <AiOutlineArrowRight /></p>
-            </div>
-            {/* <Footer /> */}
         </div>
+        // <div >
+        //     <Head>
+        //         <title>Contact - Kindred</title>
+        //         <meta name="description" content="Contact Kindred" />
+        //         <link rel="icon" href="/favicon.ico" />
+        //     </Head>
+
+        //     <Navbar />
+        //     <div className={styles.contactSectionFirst}>
+        //         <div className={styles.sectionFirstInner}>
+        //             <h2 data-aos="fade-right">Get in Touch</h2>
+        //             <p data-aos="fade-right">Contact us by leaving a submission</p>
+        //         </div>
+        //     </div>
+        //     <div className={styles.contentContact}>
+        //         <h3>Contact Information</h3>
+        //         <div className={styles.rowContact}>
+        //             <div className={styles.innerRowContact}>
+        //                 <input type="text" placeholder="First Name *" value={firstName} onChange={(e) => {
+        //                     setFirstName(e.target.value)
+        //                 }} />
+        //             </div>
+        //             <div className={styles.innerRowContact}>
+        //                 <input type="text" placeholder="Last Name *" value={lastName} onChange={(e) => {
+        //                     setLastName(e.target.value)
+        //                 }} />
+        //             </div>
+        //         </div>
+        //         <div className={styles.innerRowContact}>
+        //             <input type="email" placeholder="Email *" value={email} onChange={(e) => {
+        //                 setEmail(e.target.value)
+        //             }} />
+        //         </div>
+        //         <div className={styles.rowContact}>
+        //             <div className={styles.innerRowContact}>
+        //                 <input type="number" placeholder="Mobile Phone" value={phone} onChange={(e) => {
+        //                     setPhone(e.target.value)
+        //                 }} />
+        //             </div>
+        //         </div>
+        //     </div>
+        //     <div className={styles.bottomContainerContact}>
+        //         <p onClick={() => submitForm()} style={{ cursor: "pointer" }}>Submit Request <AiOutlineArrowRight /></p>
+        //     </div>
+        // </div>
     )
 }

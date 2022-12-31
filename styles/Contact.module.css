@@ -1,43 +1,58 @@
-.contactSectionFirst {
-    width: 100%;
-    height: 780px;
-    background-image: url("../assets/images/contact-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 75px;
+.containerPreqMain {
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px auto;
+    margin-top: 75px;
+    /* padding-top: 50px; */
     padding-bottom: 40px;
+    align-items: center;
 }
 
-.sectionFirstInner {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
+.imgContPreqMain {
+    width: 40%;
+    background-image: url("../assets/images/prayer-request-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.contentContPreqMain {
+    width: 55%;
+}
+
+.contentContPreqMain h3 {
+    font-size: 28px;
     text-align: center;
-    color: white;
 }
 
-.sectionFirstInner h1 {
-    margin: 0px;
-}
-
-.contentContact {
-    width: 95%;
+.prmparafirst {
+    line-height: 2;
+    font-size: 28px;
+    width: 80%;
     margin: 0px auto;
     margin-top: 50px;
 }
 
-.contentContact h3 {
+.contentPreq {
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.contentPreq h3 {
     font-weight: 400 !important;
 }
 
-.innerRowContact {
+.innerRowPreq {
     margin-top: 35px;
     width: 100%;
 }
 
-.innerRowContact input {
+.innerRowPreq input, .innerRowPreq textarea {
     padding: 8px;
     border: none;
     outline: none;
@@ -45,18 +60,23 @@
     font-size: 16px;
     letter-spacing: 0.6px;
     width: 100%;
+    background-color: transparent;
 }
 
-.rowContact {
+.innerRowPreq textarea {
+    min-height: 140px;
+}
+
+.rowPreq {
     display: flex;
     justify-content: space-between;
 }
 
-.rowContact .innerRowContact {
+.rowPreq .innerRowPreq {
     width: 48%;
 }
 
-.bottomContainerContact {
+.bottomContainerPreq {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -65,19 +85,56 @@
     margin-bottom: 30px;
 }
 
-.bottomContainerContact p {
+.bottomContainerPreq p {
     display: flex;
     align-items: center;
     margin: 0px;
 }
 
-.bottomContainerContact p svg {
+.bottomContainerPreq p svg {
     margin-left: 8px;
 }
 
+.zipCodeMainTop {
+    border-top: 1px solid #d3d3d3;
+    margin-top: 30px;
+}
+
+.zipCodeMainTop .innerRowPreq {
+    margin-top: 25px;
+}
+
+.zipCodeMainTop label {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.zipCodeMainTop input {
+    margin-top: 10px;
+}
+
 @media only screen and (max-width: 767px) {
-    .contactSectionFirst {
-        height: 600px;
-        padding-bottom: 0px;
+    .containerPreqMain {
+        flex-direction: column;
+    }
+
+    .imgContPreqMain {
+        height: 250px;
+        width: 100%;
+    }
+
+    .contentContPreqMain {
+        width: 90%;
+    }
+
+    .contentContPreqMain h3 {
+        text-align: left;
+    }
+
+    .prmparafirst {
+        line-height: 1.2;
+        font-size: 16px;
+        margin-top: 20px;
+        width: 100%;
     }
 }
