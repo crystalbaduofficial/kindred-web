@@ -17,7 +17,7 @@ export default function OurStory() {
             <Navbar />
             <div className={styles.mainContStory}>
                 <div className={styles.innerContainerStory}>
-                    <Image src={logo} style={{ maxWidth: 450, maxHeight: 300, marginRight: 70 }} />
+                    <Image src={logo} style={{ maxWidth: 450, maxHeight: 300, marginRight: 70 }} alt="our-story" />
                     <div>
                         <h2>Our Story</h2>
                         <p>
