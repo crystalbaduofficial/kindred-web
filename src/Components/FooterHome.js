@@ -7,56 +7,24 @@ function FooterHome() {
             <div className={styles.containerFooterHome}>
                 <div className={styles.innerContainerFooterHome}>
                     <ul>
-                        <li>Shop and Learn</li>
-                        <li>Point 1</li>
-                        <li>Point 2</li>
-                        <li>Point 3</li>
+                        <li>8324 Allison Ave, La Mesa Ca 91942</li>
+                        <li><a href="tel:(619) 558-5150">(619) 558-5150</a></li>
                     </ul>
                 </div>
                 <div className={styles.innerContainerFooterHome}>
                     <ul>
-                        <li>Why Us?</li>
-                        <li>Point 1</li>
-                        <li>Point 2</li>
-                        <li>Point 3</li>
+                        <li>Worship with us, Sunday</li>
+                        <li>10am in Person and YouTube</li>
                     </ul>
                 </div>
                 <div className={styles.innerContainerFooterHome}>
                     <ul>
-                        <li>Account</li>
-                        <li>Point 1</li>
-                        <li>Point 2</li>
-                        <li>Point 3</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
                     </ul>
                 </div>
             </div>
-            <div className={styles.containerFooterHome}>
-                <div className={styles.innerContainerFooterHome}>
-                    <ul>
-                        <li>Shop and Learn</li>
-                        <li>Point 1</li>
-                        <li>Point 2</li>
-                        <li>Point 3</li>
-                    </ul>
-                </div>
-                <div className={styles.innerContainerFooterHome}>
-                    <ul>
-                        <li>Why Us?</li>
-                        <li>Point 1</li>
-                        <li>Point 2</li>
-                        <li>Point 3</li>
-                    </ul>
-                </div>
-                <div className={styles.innerContainerFooterHome}>
-                    <ul>
-                        <li>Account</li>
-                        <li>Point 1</li>
-                        <li>Point 2</li>
-                        <li>Point 3</li>
-                    </ul>
-                </div>
-            </div>
-            <p style={{ textAlign: "center", fontSize: 16, color: "#1d1d1f", margin: 0, marginTop: 30 }}>&copy;{new Date().getFullYear()} kindred.com. All rights reserved.</p>
+            <p style={{ textAlign: window.innerWidth < 767 ? "center" : "right", marginRight: window.innerWidth > 767 && 30, fontSize: 16, color: "#1d1d1f", margin: 0, marginTop: 30 }}>&copy;{new Date().getFullYear()} kindred.com. All rights reserved.</p>
         </div>
     )
 }
