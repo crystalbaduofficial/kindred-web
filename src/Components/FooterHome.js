@@ -24,8 +24,8 @@ function FooterHome() {
                     </ul>
                 </div>
             </div>
-            <p style={{ textAlign: window.innerWidth < 767 ? "center" : "right", marginRight: window.innerWidth > 767 && 30, fontSize: 16, color: "#1d1d1f", margin: 0, marginTop: 30 }}>&copy;{new Date().getFullYear()} kindred.com. All rights reserved.</p>
-        </div>
+            <p className={styles.lastParaText}>&copy;{new Date().getFullYear()} kindred.com. All rights reserved.</p>
+        </div >
     )
 }
 
