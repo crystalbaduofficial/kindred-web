@@ -18,8 +18,9 @@ export default function Home() {
 
       <Navbar />
       <div className={styles.homepagemain}>
-        <h1>Welcome to kindred</h1>
-        <p>Some demo text for kindred as a paragraph that we change earlier to make it more cool also</p>
+        <div className={styles.opacityHome}></div>
+        <h1>Welcome to Kindred</h1>
+        <p>Official website of Kindred Church. Find messages from Christ to uplift your soul and invite the Spirit.</p>
         <button>Get started</button>
       </div>
       <FooterHome />
