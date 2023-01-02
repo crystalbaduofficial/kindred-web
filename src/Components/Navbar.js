@@ -13,7 +13,7 @@ function Navbar() {
     return (
         <div className={styles.navbarMain}>
             <div className={styles.containerNavbar}>
-                <Link href="/"><Image src={logo} /></Link>
+                <Link href="/"><Image src={logo} alt="logo" /></Link>
                 <ul className={styles.desktopList}>
                     <li><Link href="/take-me-to-church">Take Me to Church</Link></li>
                     <li><Link href="/about">About Kindred</Link></li>
