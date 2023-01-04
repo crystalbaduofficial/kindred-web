@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../styles/HomeFooter.module.css"
 import { FaFacebookF } from "react-icons/fa"
-import { FiInstagram } from "react-icons/fi"
+import { FiInstagram, FiMail } from "react-icons/fi"
 import { BsYoutube } from "react-icons/bs"
 import Link from 'next/link'
 
@@ -13,6 +13,7 @@ function FooterHome() {
                     <ul>
                         <li>CONTACT US</li>
                         <li>8324 Allison Ave, La Mesa Ca 91942</li>
+                        <li><a href="mailto:getinvolved@mykindredchurch.com">getinvolved@mykindredchurch.com</a></li>
                         <li><a href="tel:(619) 558-5150">(619) 558-5150</a></li>
                     </ul>
                 </div>
@@ -49,6 +50,11 @@ function FooterHome() {
                 <div className={styles.iconsFooterInner}>
                     <Link href="https://www.youtube.com/@MyKindredChurch/playlists" target="_blank">
                         <BsYoutube />
+                    </Link>
+                </div>
+                <div className={styles.iconsFooterInner}>
+                    <Link href="mailto:getinvolved@mykindredchurch.com">
+                        <FiMail />
                     </Link>
                 </div>
             </div>
