@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "../../styles/HomeFooter.module.css"
+import { FaFacebookF } from "react-icons/fa"
+import { FiInstagram } from "react-icons/fi"
 
 function FooterHome() {
     return (
@@ -30,6 +32,14 @@ function FooterHome() {
             <div className={styles.quoteText}>
                 <h4>Quote of the Week:</h4>
                 <p>“I’m convinced that nothing can separate us from God’s love in Christ Jesus our Lord: not death or life, not angels or rulers, not present things or future things, not powers or height or depth, or any other thing that is created.” Romans 8:38-39 CEB</p>
+            </div>
+            <div className={styles.iconsFooter}>
+                <div className={styles.iconsFooterInner}>
+                    <FaFacebookF />
+                </div>
+                <div className={styles.iconsFooterInner}>
+                    <FiInstagram />
+                </div>
             </div>
             <p className={styles.lastParaText}>&copy;{new Date().getFullYear()} kindred.com. All rights reserved.</p>
         </div >

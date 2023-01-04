@@ -60,6 +60,34 @@
     margin-right: 30px;
 }
 
+.iconsFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsFooterInner {
+    width: 40px;
+    margin-right: 10px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #d3d3d3;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsFooterInner:last-child {
+    margin-right: 0px;
+}
+
+.iconsFooterInner:hover {
+    background-color: black;
+    color: white;
+}
+
 @media only screen and (max-width: 767px) {
     .innerContainerFooterHome {
         width: 100%;
