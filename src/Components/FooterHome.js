@@ -2,6 +2,8 @@ import React from 'react'
 import styles from "../../styles/HomeFooter.module.css"
 import { FaFacebookF } from "react-icons/fa"
 import { FiInstagram } from "react-icons/fi"
+import { BsYoutube } from "react-icons/bs"
+import Link from 'next/link'
 
 function FooterHome() {
     return (
@@ -35,10 +37,19 @@ function FooterHome() {
             </div>
             <div className={styles.iconsFooter}>
                 <div className={styles.iconsFooterInner}>
-                    <FaFacebookF />
+                    <Link href="https://www.facebook.com/mykindredchurch" target="_blank">
+                        <FaFacebookF />
+                    </Link>
                 </div>
                 <div className={styles.iconsFooterInner}>
-                    <FiInstagram />
+                    <Link href="https://www.instagram.com/mykindredchurch/" target="_blank">
+                        <FiInstagram />
+                    </Link>
+                </div>
+                <div className={styles.iconsFooterInner}>
+                    <Link href="https://www.youtube.com/@MyKindredChurch/playlists" target="_blank">
+                        <BsYoutube />
+                    </Link>
                 </div>
             </div>
             <p className={styles.lastParaText}>&copy;{new Date().getFullYear()} kindred.com. All rights reserved.</p>

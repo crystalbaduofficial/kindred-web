@@ -77,17 +77,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: white;
 }
 
 .iconsFooterInner:last-child {
     margin-right: 0px;
 }
 
+.iconsFooterInner a {
+    line-height: 0;
+}
+
 .iconsFooterInner:hover {
-    background-color: #d3d3d3;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 @media only screen and (max-width: 767px) {
