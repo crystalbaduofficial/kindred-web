@@ -117,7 +117,7 @@
     width: 31%;
     margin-bottom: 30px;
     height: 300px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -125,27 +125,27 @@
 }
 
 .innerContainerFtmtc:nth-child(1) {
-    background-image: url("../assets/images/third-slider-second-tmtc.jpg");
+    background-image: url("../assets/images/playlists-1.png");
 }
 
 .innerContainerFtmtc:nth-child(2) {
-    background-image: url("../assets/images/community-prsecond.jpg");
+    background-image: url("../assets/images/playlists-2.png");
 }
 
 .innerContainerFtmtc:nth-child(3) {
-    background-image: url("../assets/images/mountain-about-slidersecond.jpg");
+    background-image: url("../assets/images/playlists-3.png");
 }
 
 .innerContainerFtmtc:nth-child(4) {
-    background-image: url("../assets/images/tree-about-sliderfirst.jpg");
+    background-image: url("../assets/images/playlists-4.png");
 }
 
 .innerContainerFtmtc:nth-child(5) {
-    background-image: url("../assets/images/get-involved-first.jpg");
+    background-image: url("../assets/images/playlists-5.png");
 }
 
 .innerContainerFtmtc:nth-child(6) {
-    background-image: url("../assets/images/second-section-tmtc.jpg");
+    background-image: url("../assets/images/playlists-6.png");
 }
 
 .videoTitleMain {

@@ -14,6 +14,7 @@ import slideSeSecPic from "../../assets/images/second-section-tmtc.jpg"
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
 import { useEffect, useState } from 'react'
 import Footer from '../../src/Components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -173,24 +174,36 @@ export default function Home() {
             <div className={styles.fourthContainer}>
                 <h2>Praise and Worship Videos</h2>
                 <div className={styles.containerFourthTmtc}>
-                    <div className={styles.innerContainerFtmtc}>
-                        <div className={styles.videoTitleMain}>
+                    <div className={styles.innerContainerFtmtc} onClick={() => {
+                        window.open("https://youtube.com/playlist?list=PL64Fu4vvE7nAtkl-w_gOt89V8diaYOLs4", "_blank")
+                    }}>
+                        {/* <div className={styles.videoTitleMain}>
                             <p>Video 1</p>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className={styles.innerContainerFtmtc}>
+                    <div className={styles.innerContainerFtmtc} onClick={() => {
+                        window.open("https://youtube.com/playlist?list=PL64Fu4vvE7nBBdSyqk58QDYBN2anbKZSL", "_blank")
+                    }}>
 
                     </div>
-                    <div className={styles.innerContainerFtmtc}>
+                    <div className={styles.innerContainerFtmtc} onClick={() => {
+                        window.open("https://youtube.com/playlist?list=PL64Fu4vvE7nCslKQ6kn84UgAGYn-RJ0kc", "_blank")
+                    }}>
 
                     </div>
-                    <div className={styles.innerContainerFtmtc}>
+                    <div className={styles.innerContainerFtmtc} onClick={() => {
+                        window.open("https://youtube.com/playlist?list=PL64Fu4vvE7nDMrQuMLzTafUXQZl7OSmy1", "_blank")
+                    }}>
 
                     </div>
-                    <div className={styles.innerContainerFtmtc}>
+                    <div className={styles.innerContainerFtmtc} onClick={() => {
+                        window.open("https://youtube.com/playlist?list=PL64Fu4vvE7nCdCBtMjaciGVxfnRRTPAlb", "_blank")
+                    }}>
 
                     </div>
-                    <div className={styles.innerContainerFtmtc}>
+                    <div className={styles.innerContainerFtmtc} onClick={() => {
+                        window.open("https://youtube.com/playlist?list=PL64Fu4vvE7nCEP0Nxr4WPSBskKTmmesJU", "_blank")
+                    }}>
 
                     </div>
                 </div>
