@@ -41,14 +41,25 @@
     margin-right: 0px;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1380px) {
     .containerNavbar ul li {
         font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .containerNavbar ul li {
+        font-size: 9px;
+        margin-right: 10px;
     }
 
     .containerNavbar img {
         max-width: 125px;
         max-height: 50px;
+    }
+
+    .containerNavbar ul li svg {
+        font-size: 18px;
     }
 }
 

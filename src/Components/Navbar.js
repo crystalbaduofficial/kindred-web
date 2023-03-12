@@ -22,7 +22,7 @@ function Navbar() {
                     <li><Link href="/prayer-requests">Prayer Requests</Link></li>
                     <li><Link href="/contact">Contact Us</Link></li>
                     <li><Link href="https://kindredcommunitycenter.com/">Community Partners</Link></li>
-                    <li><Link href="/about">Meet the Team</Link></li>
+                    <li><Link href="/meet-team">Meet the Team</Link></li>
                     <li>
                         <AiOutlineSearch />
                     </li>
@@ -47,7 +47,7 @@ function Navbar() {
                     <li><Link href="/prayer-requests">Prayer Requests</Link></li>
                     <li><Link href="/contact">Contact Us</Link></li>
                     <li><Link href="https://kindredcommunitycenter.com/">Community Partners</Link></li>
-                    <li><Link href="/about">Meet the Team</Link></li>
+                    <li><Link href="/meet-team">Meet the Team</Link></li>
                 </ul>
             </div>)}
         </div>
